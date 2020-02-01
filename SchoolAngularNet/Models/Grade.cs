@@ -9,6 +9,7 @@ namespace SchoolAngularNet.Models
     {
         public int GradeId { get; set; }
         public string GradeName { get; set; }
+        //public int MyPropertyTest { get; set; }
 
         public ICollection<Student> Students { get; set; }
     }
